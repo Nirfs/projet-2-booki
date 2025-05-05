@@ -388,6 +388,38 @@ h1 {
     margin: 0;
 }
 
+/****** activites ***********/
+
+.activites{
+    margin: 30px 0;
+}
+.activites-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.activites .card {
+    padding: 0;
+    margin: 30px 0;
+    height: 480px;
+
+}
+
+.activites-card img {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.activites-card .card-title {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: auto 0 auto 19px;
+    
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
